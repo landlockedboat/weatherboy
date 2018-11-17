@@ -3,6 +3,29 @@
 
 Small Java 8 app built for [LTS beratung](https://angel.co/lts-beratung-1)'s job application.
 
+## Installation
+
+`docker pull vikepic/weatherboy`
+
+Run it with:
+
+`docker run -p 8080:8080 -t vikepic/weatherboy`
+
+## Usage
+
+```
+> curl localhost:8080
+{"hello":"world"}
+
+// Get the weather of Barcelona
+> curl localhost:8080/weather
+{"condition":"broken clouds","temperature":15.5}
+
+// Get the weather of London
+> curl localhost:8080/weather/London
+{"condition":"few clouds","temperature":10.89}
+```
+
 ## Problem statement
 
 1. Create a small application with Java (8 or above), that starts up a webserver with an API that listens to GET /weather/<city>
