@@ -26,6 +26,12 @@ Run it with:
 {"condition":"few clouds","temperature":10.89}
 ```
 
+## Documentation
+
+You can access the API documentation by accessing to `http://localhost:8080/swagger-ui.html`.
+
+The docs are also available in json format. You can get them by executing `curl localhost:8080/v2/api-docs`.
+
 ## Problem statement
 
 1. Create a small application with Java (8 or above), that starts up a webserver with an API that listens to GET /weather/<city>
