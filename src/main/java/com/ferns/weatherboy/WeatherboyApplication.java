@@ -26,6 +26,11 @@ public class WeatherboyApplication {
     private static final String DEFAULT_CITY = "Barcelona";
     private Client client = ClientBuilder.newClient();
 
+    @GetMapping("")
+    public Greeting getGreeting(){
+        return new Greeting();
+    }
+
     @GetMapping("/weather")
     public Forecast getDefaultWeather() {
         return getWeatherByCityName(DEFAULT_CITY);
