@@ -1,6 +1,9 @@
 package com.ferns.weatherboy.openweather;
 
+import lombok.Data;
+
+@Data
 public class Wind {
-    public float speed;
-    public float deg;
+    private float speed;
+    private float deg;
 }

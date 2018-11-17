@@ -1,4 +1,4 @@
-package com.ferns.weatherboy;
+package com.ferns.weatherboy.openweather;
 
 import lombok.Data;
 

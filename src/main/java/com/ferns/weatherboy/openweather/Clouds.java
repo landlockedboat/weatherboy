@@ -1,5 +1,8 @@
 package com.ferns.weatherboy.openweather;
 
+import lombok.Data;
+
+@Data
 public class Clouds {
-    public float all;
+    private float all;
 }

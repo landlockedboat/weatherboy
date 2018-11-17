@@ -1,6 +1,9 @@
 package com.ferns.weatherboy.openweather;
 
+import lombok.Data;
+
+@Data
 public class Coord {
-    public float lon;
-    public float lat;
+    private float lon;
+    private float lat;
 }

@@ -1,10 +1,13 @@
 package com.ferns.weatherboy.openweather;
 
+import lombok.Data;
+
+@Data
 public class Sys {
-    public float type;
-    public float id;
-    public float message;
-    public String country;
-    public float sunrise;
-    public float sunset;
+    private float type;
+    private float id;
+    private float message;
+    private String country;
+    private float sunrise;
+    private float sunset;
 }
